@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
@@ -28,7 +29,17 @@
             background-color: gray;
             color: white;
         }
-
+        thead > tr > th{
+            position:sticky;
+            top:-1px;
+            background-color: gray
+            }
+        tbody > tr:nth-child(odd){ /*2n-1*/
+            background-color: white;
+        }
+        tbody > tr:nth-child(even)/*2n*/{
+            background-color: lightgray;
+        } 
         td.num{
             text-align: right;
         }
@@ -172,5 +183,19 @@
             <td class="num"><strong>203 062 512</strong></td>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempore nisi, obcaecati eum repellendus earum doloremque eius excepturi maxime, asperiores nihil placeat dicta illo repudiandae temporibus laboriosam facere voluptates deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam similique blanditiis commodi rerum incidunt autem fugit, nostrum quos, doloremque numquam modi est repudiandae! Inventore quaerat eum earum praesentium culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed reiciendis iste molestiae illo quas possimus magni ab, numquam quia adipisci voluptatum quae veniam iure sequi cum? Aut nostrum deserunt facere Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ut soluta fugiat excepturi alias repellendus quibusdam et iste labore odit delectus, esse maxime vitae temporibus recusandae necessitatibus? Beatae, mollitia voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident repudiandae accusantium at dolores ullam aut, nisi voluptas omnis quaerat quibusdam. Suscipit dolores a dolore ratione praesentium consectetur animi mollitia.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempore nisi, obcaecati eum repellendus earum doloremque eius excepturi maxime, asperiores nihil placeat dicta illo repudiandae temporibus laboriosam facere voluptates deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam similique blanditiis commodi rerum incidunt autem fugit, nostrum quos, doloremque numquam modi est repudiandae! Inventore quaerat eum earum praesentium culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed reiciendis iste molestiae illo quas possimus magni ab, numquam quia adipisci voluptatum quae veniam iure sequi cum? Aut nostrum deserunt facere Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ut soluta fugiat excepturi alias repellendus quibusdam et iste labore odit delectus, esse maxime vitae temporibus recusandae necessitatibus? Beatae, mollitia voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident repudiandae accusantium at dolores ullam aut, nisi voluptas omnis quaerat quibusdam. Suscipit dolores a dolore ratione praesentium consectetur animi mollitia.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempore nisi, obcaecati eum repellendus earum doloremque eius excepturi maxime, asperiores nihil placeat dicta illo repudiandae temporibus laboriosam facere voluptates deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam similique blanditiis commodi rerum incidunt autem fugit, nostrum quos, doloremque numquam modi est repudiandae! Inventore quaerat eum earum praesentium culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed reiciendis iste molestiae illo quas possimus magni ab, numquam quia adipisci voluptatum quae veniam iure sequi cum? Aut nostrum deserunt facere Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ut soluta fugiat excepturi alias repellendus quibusdam et iste labore odit delectus, esse maxime vitae temporibus recusandae necessitatibus? Beatae, mollitia voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident repudiandae accusantium at dolores ullam aut, nisi voluptas omnis quaerat quibusdam. Suscipit dolores a dolore ratione praesentium consectetur animi mollitia.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempore nisi, obcaecati eum repellendus earum doloremque eius excepturi maxime, asperiores nihil placeat dicta illo repudiandae temporibus laboriosam facere voluptates deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam similique blanditiis commodi rerum incidunt autem fugit, nostrum quos, doloremque numquam modi est repudiandae! Inventore quaerat eum earum praesentium culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed reiciendis iste molestiae illo quas possimus magni ab, numquam quia adipisci voluptatum quae veniam iure sequi cum? Aut nostrum deserunt facere Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ut soluta fugiat excepturi alias repellendus quibusdam et iste labore odit delectus, esse maxime vitae temporibus recusandae necessitatibus? Beatae, mollitia voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident repudiandae accusantium at dolores ullam aut, nisi voluptas omnis quaerat quibusdam. Suscipit dolores a dolore ratione praesentium consectetur animi mollitia.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempore nisi, obcaecati eum repellendus earum doloremque eius excepturi maxime, asperiores nihil placeat dicta illo repudiandae temporibus laboriosam facere voluptates deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam similique blanditiis commodi rerum incidunt autem fugit, nostrum quos, doloremque numquam modi est repudiandae! Inventore quaerat eum earum praesentium culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed reiciendis iste molestiae illo quas possimus magni ab, numquam quia adipisci voluptatum quae veniam iure sequi cum? Aut nostrum deserunt facere Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ut soluta fugiat excepturi alias repellendus quibusdam et iste labore odit delectus, esse maxime vitae temporibus recusandae necessitatibus? Beatae, mollitia voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident repudiandae accusantium at dolores ullam aut, nisi voluptas omnis quaerat quibusdam. Suscipit dolores a dolore ratione praesentium consectetur animi mollitia.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempore nisi, obcaecati eum repellendus earum doloremque eius excepturi maxime, asperiores nihil placeat dicta illo repudiandae temporibus laboriosam facere voluptates deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam similique blanditiis commodi rerum incidunt autem fugit, nostrum quos, doloremque numquam modi est repudiandae! Inventore quaerat eum earum praesentium culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed reiciendis iste molestiae illo quas possimus magni ab, numquam quia adipisci voluptatum quae veniam iure sequi cum? Aut nostrum deserunt facere Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ut soluta fugiat excepturi alias repellendus quibusdam et iste labore odit delectus, esse maxime vitae temporibus recusandae necessitatibus? Beatae, mollitia voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident repudiandae accusantium at dolores ullam aut, nisi voluptas omnis quaerat quibusdam. Suscipit dolores a dolore ratione praesentium consectetur animi mollitia.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempore nisi, obcaecati eum repellendus earum doloremque eius excepturi maxime, asperiores nihil placeat dicta illo repudiandae temporibus laboriosam facere voluptates deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam similique blanditiis commodi rerum incidunt autem fugit, nostrum quos, doloremque numquam modi est repudiandae! Inventore quaerat eum earum praesentium culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed reiciendis iste molestiae illo quas possimus magni ab, numquam quia adipisci voluptatum quae veniam iure sequi cum? Aut nostrum deserunt facere Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ut soluta fugiat excepturi alias repellendus quibusdam et iste labore odit delectus, esse maxime vitae temporibus recusandae necessitatibus? Beatae, mollitia voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident repudiandae accusantium at dolores ullam aut, nisi voluptas omnis quaerat quibusdam. Suscipit dolores a dolore ratione praesentium consectetur animi mollitia.</p>
 </body>
 </html>
